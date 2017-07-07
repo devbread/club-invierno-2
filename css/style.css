@@ -5809,10 +5809,10 @@ body {
   100% {
     background-position: 500px 1000px, 200px 400px, -100px 300px; } }
 .mono-left {
-  width: 238px;
+  width: 960px;
   height: 444px;
   position: fixed;
-  background: transparent url("../img/mono-left.png") left top no-repeat;
+  background: transparent url("../img/monos.png") left top no-repeat;
   z-index: 0; }
 
 .mono-right {
