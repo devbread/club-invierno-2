@@ -5785,7 +5785,7 @@ body {
   .wrap #snow {
     background: none;
     font-family: Androgyne;
-    background-image: url("http://www.wearewebstars.dk/codepen/img/s1.png"), url("http://www.wearewebstars.dk/codepen/img//s2.png"), url("http://www.wearewebstars.dk/codepen/img//s3.png");
+    background-image: url("../img/s1.png"), url("../img/s2.png"), url("../img/s3.png");
     height: 100%;
     left: 0;
     position: absolute;
@@ -5848,7 +5848,8 @@ body {
       .allContent .box-beneficios ul li {
         display: inline-block;
         margin-right: 46px;
-        width: 200px; }
+        width: 200px;
+        height: 335px; }
         .allContent .box-beneficios ul li:last-child {
           margin-right: 0; }
         .allContent .box-beneficios ul li .boxContent {
@@ -5858,12 +5859,16 @@ body {
             width: 200px;
             height: 150px;
             margin-right: 16px; }
+          .allContent .box-beneficios ul li .boxContent .boxContent__data {
+            width: 100%;
+            height: 210px; }
           .allContent .box-beneficios ul li .boxContent h2 {
             color: #ffffff;
             text-align: center;
-            font-weight: 800; }
+            font-weight: 800;
+            font-size: 19px; }
           .allContent .box-beneficios ul li .boxContent p {
-            font-size: 12px;
+            font-size: 10px;
             text-align: left;
             color: #ffffff; }
           .allContent .box-beneficios ul li .boxContent .btn_Canjear {
